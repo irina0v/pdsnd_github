@@ -220,6 +220,8 @@ def raw_data(df):
             
             
 def main():
+    """Call all other functions in order to import data and perform calculations."""
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
