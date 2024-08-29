@@ -12,5 +12,9 @@ This project is going to show how I learned to use Git version control tool and 
 
 
 ### Credits
-
++ docs.python.org
++ pandas.pydata.org
++ geeksforgeeks.org
++ w3schools.com
++ stackoverflow.com
 
