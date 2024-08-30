@@ -7,7 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 months_list = ['january', 'february', 'march', 'april', 'may', 'june']
 days_list = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
-#print(days_list)
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
