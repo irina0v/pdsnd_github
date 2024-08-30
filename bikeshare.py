@@ -208,6 +208,7 @@ def raw_data(df):
     show = input("\n Would you like to see raw data for Bikeshare? it will be shown in 5 lines at a time.\n Please type yes or no\n").lower()
     while True:
         if show == "yes":
+            pd.set_option("display.max_columns",200)
             print(df.iloc[rows:rows+5])
             rows+=5
             show = input("\n Would you like to see 5 more lines of data? Please type yes or no\n").lower()
